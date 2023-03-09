@@ -58,32 +58,76 @@
 
 
 
-var totalNum = +prompt("write total number")
-var mathNum = +prompt("write your maths number")
-var engNum = +prompt("write your english number")
-var urduNum = +prompt("write your urdu number")
-var obtainNum=mathNum +engNum +urduNum;
-var percentage=obtainNum/totalNum*100;
-var totalMarks=document.getElementById("totalMarks")
-if(percentage>=80){
-totalMarks.innerHTML=totalNum
-}
-else if(percentage>=70){
-    
+// 
 
-}
-else if(percentage>=60){
-    
-    
 
-}
-else{
-    
 
-}
+// ===================Question No. 07
+
+
+// var secretNum = Math.round(Math.random() * 10);
+// console.log(secretNum);
+// var userNum = +prompt("write a number")
+// if (userNum === secretNum) {
+//     alert("Bingo! correct answer")
+// }
+// else if (userNum + 1 === secretNum) {
+//     alert("close enough to the correct answer")
+// }
 
 
 
 
 
 
+
+
+
+
+// ===================Question No. 08
+
+
+
+// var userNum = +prompt("write a number")
+// if (userNum % 3 === 0) {
+//     alert("Divisible by 3")
+// }
+
+
+
+
+// ===================Question No. 09
+
+
+
+// var userNum = +prompt("write a num")
+// if (userNum % 2 === 0) {
+//     alert("It's even number")
+// }
+// else {
+//     alert("It's odd number")
+
+// }
+
+
+
+
+
+
+// ===================Question No. 10
+
+
+
+// var userTemp=+prompt("write a temperature")
+// if(userTemp>40){
+//     alert("It is too hot outside.")
+// }
+// else if(userTemp>30){
+//     alert("The weather today is normal")
+// }
+// else if(userTemp>20){
+//     alert("Today's weater is cool")
+// }
+// else if(userTemp>10){
+//     alert("Uff! Today's weater is so cool")
+// }
