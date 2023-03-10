@@ -131,3 +131,33 @@
 // else if(userTemp>10){
 //     alert("Uff! Today's weater is so cool")
 // }
+
+
+
+
+// ===================Question No. 11
+
+// var firstNum=+prompt("write your first number")
+// var sign=prompt("write a sign ( * , / , + , - )")
+// var secondNum=+prompt("write your second number")
+// if(sign==="*"){
+//    alert(firstNum * secondNum) 
+// }
+// else if(sign==="+"){
+//     alert(firstNum + secondNum) 
+//  }
+//  else if(sign==="-"){
+//     alert(firstNum - secondNum) 
+//  }
+//  else if(sign==="/"){
+//     alert(firstNum / secondNum) 
+//  }
+// else {
+//     alert("write a correct number and sign")
+// }
+
+console.log(sign);
+
+
+
+
